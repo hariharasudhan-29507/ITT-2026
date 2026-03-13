@@ -24,12 +24,3 @@ sophomore(CSE) in Mepco schlenk engineering college ,Sivakasi
 * Ask me about: Python, C++, Java, Oracle, MySQL
 * Reach me: sudanayyappan_bcs28@mepcoeng.ac.in
 
-### Languages and Tools
-<p align="left"> 
-  <img src="https://raw.githubusercontent.com" alt="python" width="40" height="40"/> 
-  <img src="https://raw.githubusercontent.com" alt="mysql" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone" alt="git" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com" alt="cplusplus" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com" alt="java" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com" alt="oracle" width="40" height="40"/>
-</p>
