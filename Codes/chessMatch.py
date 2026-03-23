@@ -9,8 +9,8 @@ draw_count=result_str.count("D")
 chandru_count=result_str.count("C")+(draw_count/2)
 nirmal_count=result_str.count("N")+(draw_count/2)
 if chandru_count>nirmal_count:
-    print("chandru won with prize pool",(total_prize-(60*prize)))
+    print("chandru recieves prize pool",(total_prize-(60*prize)))
 elif chandru_count<nirmal_count:
-     print("chandru won with prize pool",(total_prize-(40*prize)))
+     print("chandru recieves prize pool",(total_prize-(40*prize)))
 else:
-     print("chandru won with prize pool",(total_prize-(55*prize)))
+     print("chandru recieves prize pool",(total_prize-(55*prize)))
