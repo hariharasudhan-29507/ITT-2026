@@ -1,6 +1,6 @@
-# LeetCode Python Solutions
+# Python Problems
 
-Personal collection of **Python solutions** to **LeetCode problems** I've solved.
+Personal collection of **Python solutions** and **LeetCode problems** I've solved in ITT. 
 
 ## Author
 - A.Hariharasudhan
@@ -8,7 +8,7 @@ Personal collection of **Python solutions** to **LeetCode problems** I've solved
 - Reach me : sudanayyappan_bcs28@mepcoeng.ac.in
 
 ## Getting Started
-1. This folder contains the codes that i solved in leetcode
+1. This folder contains the codes that i solved using pyhton
 2. Pushing myself to solve questions daily
 
 ## Note
