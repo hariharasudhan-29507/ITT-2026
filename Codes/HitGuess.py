@@ -1,20 +1,15 @@
 class codehit:
-    def checkhit(self,str1,str2):
-        str1cp=list(str1)
-        str2cp=list(str2)
-        res=""
-        if len(str2)<len(str1):
-            l=len(str2)
-        else:
-            l=len(str1)
+    def checkhit(self, str1, str2):
+        res = ""
+        l = min(len(str1), len(str2))
         for i in range(l):
-            for j in range(l):
-                if str1[i]==str2[j]:
-                    res=res+(str(i)+"H")
-                elif str1[i] in str2:
-                    res=res+(str(i)+"N")
+            if str1[i] == str2[i]:
+                res += str(i) + "H"
+            elif str1[i] in str2:
+                res += str(i) + "N"
         return res
-c=codehit()
-code=input("enter a code:")
-guess=input("enter a code to guess")
-print(c.checkhit(code,guess))
+
+c = codehit()
+code = input("enter a code: ")
+guess = input("enter a guess: ")
+print(c.checkhit(code, guess))
