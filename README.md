@@ -52,7 +52,6 @@ ITT-2026/
 | `vowelConsonant.py` | Classifies input characters as vowels or consonants |
 | `withdraw.py` | Bank withdrawal simulation enforcing a ₹500 minimum balance and ₹100-multiple rule |
 
----
 
 ## Documentation
 
