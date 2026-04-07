@@ -1,93 +1,41 @@
 # Palindrome Number
 
-## Problem Description
+## Description
 
-Given an integer `x`, return `True` if `x` is a **palindrome**, and `False` otherwise.
+Checks whether a given integer is a palindrome by reversing its digits mathematically and comparing the result to the original number. Negative numbers are never considered palindromes.
 
-A number is a palindrome if it reads the same forwards and backwards (e.g., `121`, `1331`, `0`).
+## Approach
 
-This is LeetCode #9.
+Extract each digit from the right of the number using modulo and division, building a reversed number. After processing all digits, compare the reversed number to the original input.
 
----
+## Algorithm
 
-## Approach: Digit Reversal
+```
+ALGORITHM PALINDROME_CHECK
+// Determines if an integer is a palindrome by digit reversal
+// Input  : An integer x
+// Output : True if x is a palindrome, False otherwise
 
-The solution reverses the integer mathematically (without converting to a string) and compares the reversed number to the original:
+Set n = x
+Set temp = 0
+While n is greater than 0
+    Set rem = n modulo 10
+    Set temp = (temp * 10) + rem
+    Set n = n divided by 10 (integer division)
+If x equals temp
+    Return True
+Else
+    Return False
+```
 
-1. Save the original value of `x` into `n`.
-2. Iteratively extract the last digit using `rem = n % 10`.
-3. Build the reversed number: `temp = temp * 10 + rem`.
-4. Shift `n` right by one digit: `n //= 10`.
-5. After the loop, if `x == temp`, the number is a palindrome.
+## Time Complexity
 
-> **Note:** Negative numbers are never palindromes (e.g., `-121` reversed is `121-`).
-
----
+O(log n) — the loop runs once per digit in the input number.
 
 ## Code
 
-```python
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        n = x
-        temp = 0
-        while n > 0:
-            rem = n % 10
-            temp = (temp * 10) + rem
-            n //= 10
-        if x == temp:
-            return True
-        else:
-            return False
+[9.Palindrome.py](../Codes/9.Palindrome.py)
 
-s = Solution()
-x = 121
-print(s.isPalindrome(x))  # Output: True
-```
+## Author
 
----
-
-## Complexity Analysis
-
-| Complexity | Value | Explanation |
-|------------|-------|-------------|
-| **Time**   | O(log₁₀ n) | The `while` loop runs once per digit of `x`. Since we divide `n` by 10 each iteration, the loop runs log₁₀(n) times. |
-| **Space**  | O(1) | Only three integer variables (`n`, `temp`, `rem`) are used, regardless of input size. |
-
----
-
-## Examples
-
-| Input  | Output  | Reason |
-|--------|---------|--------|
-| `121`  | `True`  | 121 reversed = 121 |
-| `-121` | `False` | Negative numbers are not palindromes |
-| `10`   | `False` | 10 reversed = 01 = 1 ≠ 10 |
-| `0`    | `True`  | 0 reversed = 0 |
-| `1221` | `True`  | 1221 reversed = 1221 |
-
----
-
-## Edge Cases
-
-- **Negative numbers**: The `while n > 0` condition means `temp` stays `0` for any negative `x`, so `x != 0` → returns `False`. This correctly identifies negatives as non-palindromes.
-- **Zero**: `x = 0` → loop doesn't run → `temp = 0` → `0 == 0` → `True`.
-- **Numbers ending in 0 (non-zero)**: e.g., `10` → reversed is `01 = 1` ≠ `10` → `False`.
-
----
-
-## Alternative Approaches
-
-| Approach | Time | Space | Notes |
-|----------|------|-------|-------|
-| Digit Reversal (this solution) | O(log n) | O(1) | No string conversion |
-| String Conversion | O(log n) | O(log n) | `str(x) == str(x)[::-1]` — simple but uses extra space |
-| Half Reversal | O(log n) | O(1) | Only reverse half the digits for an early exit; slightly more optimal |
-
----
-
-## Key Takeaways
-
-- Reversing an integer mathematically avoids the overhead of string conversion.
-- The algorithm naturally handles negative numbers because the `while n > 0` guard prevents processing of negative values, leaving `temp = 0 ≠ x`.
-- The space complexity is O(1), making it ideal for memory-constrained environments.
+hariharasudhan

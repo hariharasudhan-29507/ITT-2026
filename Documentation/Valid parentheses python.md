@@ -1,138 +1,42 @@
 # Valid Parentheses
 
-## Problem Description
-
-Given a string `s` containing only the characters `'('`, `')'`, `'{'`, `'}'`, `'['`, and `']'`, determine if the input string is **valid**.
-
-A string is valid if:
-1. Every opening bracket has a corresponding closing bracket.
-2. Opening brackets are closed in the **correct order**.
-3. Every closing bracket closes the **most recently opened** unmatched bracket.
-
-This is LeetCode #20.
-
----
-
 ## Description
 
-An efficient solution using a **stack data structure** to ensure every opening bracket has a corresponding and correctly ordered closing bracket. The algorithm uses a dictionary for mapping bracket pairs, pushing opening brackets onto the stack and popping them when a matching closing bracket is encountered.
+Validates whether a string containing bracket characters is properly matched and nested using a stack-based approach.
 
----
+## Approach
 
-## Logic
+Iterate through each character in the string. Push opening brackets onto a stack. When a closing bracket is encountered, check if the top of the stack holds the matching opening bracket. If at any point there is a mismatch or the stack is empty when a closing bracket is found, the string is invalid. After processing all characters, the string is valid only if the stack is empty.
 
-1. **Opening bracket encountered** → push it onto the stack.
-2. **Closing bracket encountered** → check if it matches the top of the stack:
-   - If the stack is empty or the top doesn't match → return `False`.
-   - Otherwise → pop the top of the stack.
-3. **End of string** → if the stack is empty, the string is valid; otherwise, return `False`.
+## Algorithm
 
----
+```
+ALGORITHM VALID_PARENTHESES
+// Checks if bracket characters in a string are correctly matched and nested
+// Input  : A string s containing '(', ')', '{', '}', '[', ']'
+// Output : True if all brackets are validly matched, False otherwise
+
+Define mapping as {')': '(', '}': '{', ']': '['}
+Initialize stack as empty list
+For each character char in s
+    If char is an opening bracket (i.e., char is in mapping values)
+        Push char onto stack
+    Else if char is a closing bracket (i.e., char is in mapping keys)
+        If stack is empty OR mapping[char] does not equal top of stack
+            Return False
+        Else
+            Pop the top of stack
+Return True if stack is empty, else False
+```
+
+## Time Complexity
+
+O(n) — each character in the string is processed exactly once.
 
 ## Code
 
-```python
-class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        mapping = {')': '(', '}': '{', ']': '['}
-        stack = []
+[20.ValidParenthesis.py](../Codes/20.ValidParenthesis.py)
 
-        for char in s:
-            if char in mapping.values():   # Opening bracket
-                stack.append(char)
-            elif char in mapping:          # Closing bracket
-                if not stack or mapping[char] != stack.pop():
-                    return False
-        return not stack
-```
+## Author
 
----
-
-## Complexity Analysis
-
-| Complexity | Value | Explanation |
-|------------|-------|-------------|
-| **Time**   | O(n)  | Single pass through the string `s` of length `n`. Each character is processed exactly once (one push or one pop). |
-| **Space**  | O(n)  | In the worst case (all opening brackets), all `n` characters are pushed onto the stack. |
-
----
-
-## Examples
-
-| Input      | Output  | Reason |
-|------------|---------|--------|
-| `"()"`     | `True`  | Single matching pair |
-| `"()[]{}"`  | `True`  | Multiple valid pairs |
-| `"(]"`     | `False` | Mismatched brackets |
-| `"([)]"`   | `False` | Incorrectly nested |
-| `"{[]}"`   | `True`  | Correctly nested |
-| `""`       | `True`  | Empty string is valid |
-| `"("`      | `False` | Unclosed bracket |
-
----
-
-## Edge Cases
-
-- **Empty string**: No characters to process; stack remains empty → returns `True`.
-- **Only closing brackets**: e.g., `")"` → stack is empty on pop → returns `False`.
-- **Only opening brackets**: e.g., `"((("` → stack is non-empty at the end → returns `False`.
-- **Single character**: Always `False` (can't be a valid pair).
-
----
-
-## Step-by-Step Walkthrough
-
-For `s = "{[]}"`:
-
-| Step | char | Action         | Stack   |
-|------|------|----------------|---------|
-| 1    | `{`  | Push           | `[{]`   |
-| 2    | `[`  | Push           | `[{, []` |
-| 3    | `]`  | Pop `[` (match)| `[{]`   |
-| 4    | `}`  | Pop `{` (match)| `[]`    |
-
-Stack is empty → `True` ✅
-
-For `s = "([)]"`:
-
-| Step | char | Action              | Stack    |
-|------|------|---------------------|----------|
-| 1    | `(`  | Push                | `[(]`    |
-| 2    | `[`  | Push                | `[(, []` |
-| 3    | `)`  | Expects `(`, top is `[` → mismatch | — |
-
-Returns `False` ❌
-
----
-
-## The Mapping Dictionary
-
-```python
-mapping = {')': '(', '}': '{', ']': '['}
-```
-
-- Keys are **closing brackets**; values are their **matching opening brackets**.
-- `mapping.values()` gives the set of opening brackets: `{'(', '{', '['}`.
-- For a closing bracket `char`, `mapping[char]` gives its expected opening bracket.
-
----
-
-## Alternative Approaches
-
-| Approach | Time | Space | Notes |
-|----------|------|-------|-------|
-| Stack with dictionary (this solution) | O(n) | O(n) | Clean and idiomatic |
-| Stack with if-else | O(n) | O(n) | Verbose but avoids dictionary overhead |
-| Counter (incorrect) | O(n) | O(1) | Only works for single bracket type; fails for mixed types |
-
----
-
-## Key Takeaways
-
-- The **stack** is the natural data structure for this problem because it enforces LIFO (Last-In, First-Out) ordering, which mirrors how brackets must be closed.
-- Using a **dictionary** for bracket pairs makes the code concise and easy to extend to new bracket types.
-- The `return not stack` idiom is Pythonic and ensures all opened brackets were properly closed.
+hariharasudhan
