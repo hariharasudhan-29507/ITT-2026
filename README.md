@@ -1,16 +1,10 @@
 # ITT-2026
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Language-Python%203-blue?style=flat-square&logo=python" alt="Python 3"/>
-  <img src="https://img.shields.io/badge/Focus-DSA%20%26%20Problem%20Solving-orange?style=flat-square" alt="DSA"/>
-  <img src="https://img.shields.io/badge/Platform-LeetCode-yellow?style=flat-square" alt="LeetCode"/>
-</p>
-
 A curated collection of **LeetCode solutions** and **custom Python programs** written during my sophomore year (ITT course). Problems are organised by ID or topic, and every file is self-contained with a small driver/test block so the output can be verified instantly.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ITT-2026/
@@ -21,22 +15,22 @@ ITT-2026/
 
 ---
 
-## 🧩 LeetCode Solutions
+## LeetCode Solutions
 
-| # | Problem | File | Approach |
-|---|---------|------|----------|
-| 1 | Two Sum | `1.TwoSum.py` | Brute-force nested loop – O(n²) |
-| 9 | Palindrome Number | `9.Palindrome.py` | Integer reversal / string comparison |
-| 14 | Longest Common Prefix | `14.Longest Common Prefix.py` | Character-by-character scan |
-| 20 | Valid Parentheses | `20.ValidParenthesis.py` | Stack-based matching |
-| 22 | Generate Parentheses | `22.GenerateParenthesis.py` | DFS / backtracking |
-| 26 | Remove Duplicates from Sorted Array | `26.RemoveDuplicatesFromSortedArray.py` | Two-pointer in-place |
-| 27 | Remove Element | `27.RemoveElement.py` | Two-pointer in-place |
-| 28 | Find Index of First Occurrence in String | `28.FindtheIndexoftheFirstOccurrenceinString.py` | Sliding window / built-in |
+| # | Problem | LeetCode Link | File | Approach |
+|---|---------|---------------|------|----------|
+| 1 | Two Sum | [leetcode.com/problems/two-sum](https://leetcode.com/problems/two-sum/) | `1.TwoSum.py` | Brute-force nested loop – O(n²) |
+| 9 | Palindrome Number | [leetcode.com/problems/palindrome-number](https://leetcode.com/problems/palindrome-number/) | `9.Palindrome.py` | Integer reversal / string comparison |
+| 14 | Longest Common Prefix | [leetcode.com/problems/longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/) | `14.Longest Common Prefix.py` | Character-by-character scan |
+| 20 | Valid Parentheses | [leetcode.com/problems/valid-parentheses](https://leetcode.com/problems/valid-parentheses/) | `20.ValidParenthesis.py` | Stack-based matching |
+| 22 | Generate Parentheses | [leetcode.com/problems/generate-parentheses](https://leetcode.com/problems/generate-parentheses/) | `22.GenerateParenthesis.py` | DFS / backtracking |
+| 26 | Remove Duplicates from Sorted Array | [leetcode.com/problems/remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | `26.RemoveDuplicatesFromSortedArray.py` | Two-pointer in-place |
+| 27 | Remove Element | [leetcode.com/problems/remove-element](https://leetcode.com/problems/remove-element/) | `27.RemoveElement.py` | Two-pointer in-place |
+| 28 | Find Index of First Occurrence in String | [leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | `28.FindtheIndexoftheFirstOccurrenceinString.py` | Sliding window / built-in |
 
 ---
 
-## 🐍 Custom Python Programs
+## Custom Python Programs
 
 | File | Description |
 |------|-------------|
@@ -60,7 +54,7 @@ ITT-2026/
 
 ---
 
-## 📄 Documentation
+## Documentation
 
 The `Documentation/` folder contains detailed PDF write-ups for selected problems, each covering:
 
@@ -78,7 +72,7 @@ The `Documentation/` folder contains detailed PDF write-ups for selected problem
 
 ---
 
-## ⚙️ Technical Specifications
+## Technical Specifications
 
 | Attribute | Detail |
 |-----------|--------|
@@ -89,7 +83,7 @@ The `Documentation/` folder contains detailed PDF write-ups for selected problem
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repository
@@ -105,7 +99,7 @@ python3 validIP.py
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 * Strengthen problem-solving skills through daily LeetCode practice.
 * Build real-world mini-projects (billing, banking, games) using Python OOP.
@@ -113,7 +107,7 @@ python3 validIP.py
 
 ---
 
-## 👨‍💻 About the Author
+## About the Author
 
 **A. Hariharasudhan**
 Sophomore – B.E. Computer Science and Engineering
@@ -121,7 +115,7 @@ Mepco Schlenk Engineering College, Sivakasi
 
 | | |
 |---|---|
-| 🔭 Currently working on | Vehicle Rental and Booking System |
-| 💬 Ask me about | Python, C++, Java, Oracle, MySQL |
-| 📫 Reach me | sudanayyappan_bcs28@mepcoeng.ac.in |
+| Currently working on | Vehicle Rental and Booking System |
+| Ask me about | Python, C++, Java, Oracle, MySQL |
+| Reach me | sudanayyappan_bcs28@mepcoeng.ac.in |
 
