@@ -6,7 +6,7 @@ Simulates a three-round coin game between Suresh and Sundar where the loser of e
 
 ## Approach
 
-Compare Suresh's and Sundar's coin counts to determine the winner of each round. The loser of the current round gains the winner's coins added to their own. After each round, print who has fewer coins (indicated by "S" for Suresh or "N" for Nirmal/Sundar), then repeat for the next two rounds using the updated coin counts.
+Compare Suresh's and Sundar's coin counts to determine the winner of each round. The loser of the current round gains the winner's coins added to their own. After each round, print who has fewer coins — "S" indicates Suresh has fewer coins, "N" indicates Sundar has fewer coins — then repeat for the next two rounds using the updated coin counts.
 
 ## Algorithm
 
@@ -14,7 +14,7 @@ Compare Suresh's and Sundar's coin counts to determine the winner of each round.
 ALGORITHM COIN_GAME
 // Simulates three rounds of coin redistribution between two players
 // Input  : Coin counts for Suresh, Sundar, and Raja
-// Output : "S" or "N" after each of the three rounds indicating who has fewer coins
+// Output : "S" (Suresh has fewer coins) or "N" (Sundar has fewer coins) after each of the three rounds
 
 Read suresh, sundar coin counts from user
 Determine round 1 winner by comparing suresh and sundar

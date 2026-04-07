@@ -30,7 +30,7 @@ Print the maximum value in the last row of dp
 
 ## Time Complexity
 
-O(n²) — each cell in the lower-triangular matrix of size n rows is visited once.
+O(n²) — the lower-triangular matrix with n rows contains n(n+1)/2 cells total, each visited exactly once.
 
 ## Code
 
