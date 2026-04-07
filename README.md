@@ -2,13 +2,13 @@
 
 <p align="left"> 
 
-This repository contains my LeetCode solutions and Python problem-solving scripts implemented in Python. Solutions are organized by problem ID and name and include small tests to verify correctness.
+This repository contains implementations of algorithmic problems from LeetCode and various Python programming challenges. All solutions are written in Python, organized by problem identifier and title, and include test cases to ensure correctness.
 
 ### Purpose
-* Practice problems on LeetCode.
-* Solve algorithmic challenges using Python.
-* Build a consistent daily problem-solving habit.
-* Strengthen understanding of Data Structures and Algorithms.
+* To practice and master problem-solving skills through LeetCode challenges.
+* To develop proficiency in Python for algorithmic and computational tasks.
+* To establish a regular routine of coding and problem-solving.
+* To reinforce concepts in Data Structures and Algorithms.
 
 ### Problems Solved
 
@@ -41,15 +41,13 @@ This repository contains my LeetCode solutions and Python problem-solving script
 * **Valid IP Address** — [validIP.py](Codes/validIP.py)
 * **Valid Email** — [validMail.py](Codes/validMail.py)
 * **Vowel & Consonant Counter** — [vowelConsonant.py](Codes/vowelConsonant.py)
-
+* **Withdrawal System** — [withdraw.py](Codes/withdraw.py)
 
 
 ### About the Author
 **Hariharasudhan**  
-sophomore(CSE) in Mepco schlenk engineering college ,Sivakasi
+Sophomore in Computer Science and Engineering at Mepco Schlenk Engineering College, Sivakasi
 
 * Currently working on: Vehicle rental and booking system
 * Ask me about: Python, C++, Java, Oracle, MySQL
 * Reach me: sudanayyappan_bcs28@mepcoeng.ac.in
-* **Withdrawal System** — [withdraw.py](Codes/withdraw.py)
-
