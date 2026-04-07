@@ -17,16 +17,16 @@ ITT-2026/
 
 ## LeetCode Solutions
 
-| # | Problem | LeetCode Link | File | Approach |
-|---|---------|---------------|------|----------|
-| 1 | Two Sum | [leetcode.com/problems/two-sum](https://leetcode.com/problems/two-sum/) | `1.TwoSum.py` | Brute-force nested loop – O(n²) |
-| 9 | Palindrome Number | [leetcode.com/problems/palindrome-number](https://leetcode.com/problems/palindrome-number/) | `9.Palindrome.py` | Integer reversal / string comparison |
-| 14 | Longest Common Prefix | [leetcode.com/problems/longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/) | `14.Longest Common Prefix.py` | Character-by-character scan |
-| 20 | Valid Parentheses | [leetcode.com/problems/valid-parentheses](https://leetcode.com/problems/valid-parentheses/) | `20.ValidParenthesis.py` | Stack-based matching |
-| 22 | Generate Parentheses | [leetcode.com/problems/generate-parentheses](https://leetcode.com/problems/generate-parentheses/) | `22.GenerateParenthesis.py` | DFS / backtracking |
-| 26 | Remove Duplicates from Sorted Array | [leetcode.com/problems/remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | `26.RemoveDuplicatesFromSortedArray.py` | Two-pointer in-place |
-| 27 | Remove Element | [leetcode.com/problems/remove-element](https://leetcode.com/problems/remove-element/) | `27.RemoveElement.py` | Two-pointer in-place |
-| 28 | Find Index of First Occurrence in String | [leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | `28.FindtheIndexoftheFirstOccurrenceinString.py` | Sliding window / built-in |
+| Problem | LeetCode Link | Approach | File |
+|---------|---------------|----------|------|
+| Two Sum | [leetcode.com/problems/two-sum](https://leetcode.com/problems/two-sum/) | Brute-force nested loop – O(n²) | [1.TwoSum.py](https://github.com/hariharasudhan-29507/ITT-2026/blob/main/Codes/1.TwoSum.py) |
+| Palindrome Number | [leetcode.com/problems/palindrome-number](https://leetcode.com/problems/palindrome-number/) | Integer reversal / string comparison | [9.Palindrome.py](https://github.com/hariharasudhan-29507/ITT-2026/blob/main/Codes/9.Palindrome.py) |
+| Longest Common Prefix | [leetcode.com/problems/longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/) | Character-by-character scan | [14.Longest Common Prefix.py](https://github.com/hariharasudhan-29507/ITT-2026/blob/main/Codes/14.Longest%20Common%20Prefix.py) |
+| Valid Parentheses | [leetcode.com/problems/valid-parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack-based matching | [20.ValidParenthesis.py](https://github.com/hariharasudhan-29507/ITT-2026/blob/main/Codes/20.ValidParenthesis.py) |
+| Generate Parentheses | [leetcode.com/problems/generate-parentheses](https://leetcode.com/problems/generate-parentheses/) | DFS / backtracking | [22.GenerateParenthesis.py](https://github.com/hariharasudhan-29507/ITT-2026/blob/main/Codes/22.GenerateParenthesis.py) |
+| Remove Duplicates from Sorted Array | [leetcode.com/problems/remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Two-pointer in-place | [26.RemoveDuplicatesFromSortedArray.py](https://github.com/hariharasudhan-29507/ITT-2026/blob/main/Codes/26.RemoveDuplicatesFromSortedArray.py) |
+| Remove Element | [leetcode.com/problems/remove-element](https://leetcode.com/problems/remove-element/) | Two-pointer in-place | [27.RemoveElement.py](https://github.com/hariharasudhan-29507/ITT-2026/blob/main/Codes/27.RemoveElement.py) |
+| Find Index of First Occurrence in String | [leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Sliding window / built-in | [28.FindtheIndexoftheFirstOccurrenceinString.py](https://github.com/hariharasudhan-29507/ITT-2026/blob/main/Codes/28.FindtheIndexoftheFirstOccurrenceinString.py) |
 
 ---
 
@@ -112,6 +112,7 @@ python3 validIP.py
 **A. Hariharasudhan**
 Sophomore – B.E. Computer Science and Engineering
 Mepco Schlenk Engineering College, Sivakasi
+Reach me: sudanayyappan_bcs28@mepcoeng.ac.in
 
 | | |
 |---|---|
