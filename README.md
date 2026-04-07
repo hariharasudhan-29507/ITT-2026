@@ -2,7 +2,6 @@
 
 <p align="left"> 
 
-
 This repository contains my LeetCode solutions and Python problem-solving scripts implemented in Python. Solutions are organized by problem ID and name and include small tests to verify correctness.
 
 ### Purpose
@@ -11,26 +10,9 @@ This repository contains my LeetCode solutions and Python problem-solving script
 * Build a consistent daily problem-solving habit.
 * Strengthen understanding of Data Structures and Algorithms.
 
-### Technical Specifications
-* Language: Python 3+
-* Focus: Data Structures and Algorithms
-* Platform: LeetCode + custom Python exercises
-
----
-
-### About the Author
-**Hariharasudhan**  
-sophomore(CSE) in Mepco schlenk engineering college ,Sivakasi
-
-* Currently working on: Vehicle rental and booking system
-* Ask me about: Python, C++, Java, Oracle, MySQL
-* Reach me: sudanayyappan_bcs28@mepcoeng.ac.in
-
----
-
 ### Problems Solved
 
-#### 🟡 LeetCode Problems
+####  LeetCode Problems
 
 * **1. Two Sum** — [1.TwoSum.py](Codes/1.TwoSum.py)
 * **9. Palindrome Number** — [9.Palindrome.py](Codes/9.Palindrome.py)
@@ -41,7 +23,7 @@ sophomore(CSE) in Mepco schlenk engineering college ,Sivakasi
 * **27. Remove Element** — [27.RemoveElement.py](Codes/27.RemoveElement.py)
 * **28. Find the Index of the First Occurrence in a String** — [28.FindtheIndexoftheFirstOccurrenceinString.py](Codes/28.FindtheIndexoftheFirstOccurrenceinString.py)
 
-#### 🔵 Python Exercises
+####  Python Problems
 
 * **Arithmetic Operations** — [Arith.py](Codes/Arith.py)
 * **Array Color Sorting** — [arrayColor.py](Codes/arrayColor.py)
@@ -59,5 +41,15 @@ sophomore(CSE) in Mepco schlenk engineering college ,Sivakasi
 * **Valid IP Address** — [validIP.py](Codes/validIP.py)
 * **Valid Email** — [validMail.py](Codes/validMail.py)
 * **Vowel & Consonant Counter** — [vowelConsonant.py](Codes/vowelConsonant.py)
+
+
+
+### About the Author
+**Hariharasudhan**  
+sophomore(CSE) in Mepco schlenk engineering college ,Sivakasi
+
+* Currently working on: Vehicle rental and booking system
+* Ask me about: Python, C++, Java, Oracle, MySQL
+* Reach me: sudanayyappan_bcs28@mepcoeng.ac.in
 * **Withdrawal System** — [withdraw.py](Codes/withdraw.py)
 
