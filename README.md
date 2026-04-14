@@ -8,7 +8,7 @@ This repository contains Python programs and LeetCode solutions written as part 
 
 ```
 ITT-2026/
-├── Codes/                   # All Python source files
+├── Codes/              
 │   ├── 1.TwoSum.py
 │   ├── 9.Palindrome.py
 │   ├── 14.Longest Common Prefix.py
@@ -39,7 +39,7 @@ ITT-2026/
 │   ├── vowelConsonant.py
 │   └── withdraw.py
 │
-└── Documentation/           # Markdown documentation for each program
+└── Documentation/          
     ├── Arithmetic Operations python.md
     ├── Array Color Sort python.md
     ├── Bank Withdrawal python.md
