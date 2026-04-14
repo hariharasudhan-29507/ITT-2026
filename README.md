@@ -1,6 +1,6 @@
 # ITT-2026
 
-This repository contains Python programs and LeetCode solutions written as part of my ITT (Introduction to Technology & Tools) coursework. Solutions are organized by problem ID and name and include small tests to verify correctness.
+This repository contains Python programs and LeetCode solutions written as part of my ITT coursework. Solutions are organized by problem ID and name . For their documentaion , visit documentation directory 
 
 ---
 
@@ -69,15 +69,15 @@ ITT-2026/
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 - Practice algorithmic problem-solving on LeetCode using Python.
-- Build and strengthen core Python programming skills through real-world exercises.
+- Practice as many problems as possible and maintain consistency.
 - Maintain well-documented code with time and space complexity analysis.
 
 ---
 
-## 🧩 Problems Solved
+##  Problems Solved
 
 ### LeetCode Problems
 
@@ -94,7 +94,7 @@ ITT-2026/
 
 ---
 
-### 🐍 Python Exercises
+###  Python Exercises
 
 | Program | Code | Documentation |
 |---------|------|---------------|
@@ -122,13 +122,13 @@ ITT-2026/
 
 ---
 
-## 👤 About the Author
+## About the Author
 
 **A. Hariharasudhan**  
 Sophomore — B.E. Computer Science & Engineering  
 Mepco Schlenk Engineering College, Sivakasi
 
-- 🔭 Currently working on: Vehicle rental and booking system
-- 💬 Ask me about: Python, C++, Java, Oracle, MySQL
+- Currently working on: Vehicle rental and booking system
+- Ask me about: Python, C++, Java, Oracle, MySQL
 - 📧 Reach me: sudanayyappan_bcs28@mepcoeng.ac.in
 
