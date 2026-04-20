@@ -1,6 +1,14 @@
-class arryaColor:
+# Author - Hariharasudhan A
+class arrayColor:
+  '''
+  pair matching colors to code ,positive integer array 
+  '''
   def color(self,arr):
-    arr.sort()
+    arr.sort() 
+    '''
+    sorting because the code is only 0,1,2 
+    they will be at the start of the array if sorted having the numbers greater than 0,1,2 
+    '''
     for i in range(len(arr)):
       if arr[i]==0:
         print("red",end=" ")
