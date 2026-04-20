@@ -1,11 +1,12 @@
+# Author - Hariharasudhan A
 class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        n=x
-        temp=0
+    def isPalindrome(self, x) :
+        n=x # temproaruy copy
+        temp=0 
         while(n>0):
-            rem=n%10
-            temp=(temp*10)+rem
-            n//=10
+            rem=n%10 # store last digit
+            temp=(temp*10)+rem # reverse it 
+            n//=10 # eliminate last digit
         if x==temp:
             return True
         else:
