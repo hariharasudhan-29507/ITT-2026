@@ -1,5 +1,7 @@
-# Johncook algorithm
+# Author - Hariharasudhan A
 """
+//Johncook algorithm
+
 1.Take last 2 digits from year as y
 2.divide y/4 and add with y
 3.add day of the mon
@@ -27,39 +29,44 @@ sat 6
 class DayFind:
     def weekTable(self, val):
 
+        # table for days in a week indexed from 0 to 6
         week = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"]
         if 0 <= val <= 6:
             return week[val]
         return " "
 
     def monTable(self, val):
+
+        # from the Johncook's algo , the month number is paired with johncook's number
         mon_dir = {1: 6, 2: 2, 3: 2, 4: 5, 5: 0, 6: 3, 7: 5, 8: 1, 9: 4, 10: 6, 11: 2, 12: 4}
         return mon_dir.get(val, -1)
 
     def is_leap(self, year):
+        # leap year criterion
         return (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0)
 
     def FindDay(self, date):
+        # parsing the date accordingly
         arr = date.split()
         day = int(arr[0])
         mon = int(arr[1])
         year = int(arr[2])
       
         y = year % 100
-        value = y + (y // 4)
+        value = y + (y // 4) 
 
         mon_key = self.monTable(mon)
         if mon_key == -1:
             return "Invalid month"
 
-        value = value + mon_key + day
+        value = value + mon_key + day # formula
       
         if self.is_leap(year) and mon in (1, 2):
             value -= 1
           
         wk_key = value % 7
         wk_str = self.weekTable(wk_key)
-        return wk_str
+        return wk_str # string format for day of the week
 
 
 d = DayFind()
