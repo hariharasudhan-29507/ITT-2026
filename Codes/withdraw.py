@@ -1,5 +1,11 @@
+# Author - Hariharasudhan A
 class Bank:
+  '''
+  simple withdraw simulation using condition 
+  '''
+  
   def Withdraw(self,balance):
+    # nested if blocks
     if balance>=500:
       amount=int(input("enter amount to withdraw:"))
       if balance>amount and balance>0 and amount>0:
@@ -12,6 +18,8 @@ class Bank:
           print("cannot withdraw, invalid balance")
       else:
         print("minimum balance should be 500")
+# object declaration
 b=Bank()
 balance=int(input("enter the balance(minimum val must be 500):"))
 b.Withdraw(balance)
+# function call
