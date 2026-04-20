@@ -1,9 +1,10 @@
+# Author - Hariharasudhan A
 class Solution(object):
     def removeElement(self, nums, val):
         i = 0
-        for x in nums:
-         if x != val:
-                nums[i] = x
+        for x in nums: # traverse with every element
+         if x != val: # match element with target value
+                nums[i] = x # only keep the elements that are not target
                 i += 1
         return i
 s=Solution()
