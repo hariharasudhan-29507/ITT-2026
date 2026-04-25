@@ -39,9 +39,7 @@ O(1) — the number of matches is fixed at 14, so all operations are constant ti
 
 ## Author
 
-
-
-Hariharasudhan A
-sophomore in CSE , MEPCO schlenk engineering college 
-Sivakasi
+Hariharasudhan A  
+sophomore in CSE , MEPCO schlenk engineering college  
+Sivakasi  
 reach me : sudanayyappann_bcs28@mepcoeng.ac.in
