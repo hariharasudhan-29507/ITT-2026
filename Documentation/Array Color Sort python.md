@@ -39,4 +39,6 @@ O(n log n) — dominated by sorting the array of n elements.
 
 ## Author
 
-hariharasudhan
+Hariharasudhan A
+sophomore in CSE , MEPCO schlenk engineering college
+sivakasi
