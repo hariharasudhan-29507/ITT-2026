@@ -40,4 +40,6 @@ O(1) — a fixed number of arithmetic checks are performed.
 
 ## Author
 
-hariharasudhan
+Hariharasudhan A
+sophomore in CSE , MEPCO schlenk engineering college
+Sivakasi
