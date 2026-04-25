@@ -38,8 +38,7 @@ O(log n) — the loop runs once per digit in the input number.
 
 ## Author
 
-
-Hariharasudhan A
-sophomore in CSE , MEPCO schlenk engineering college 
-Sivakasi
+Hariharasudhan A  
+sophomore in CSE , MEPCO schlenk engineering college  
+Sivakasi  
 reach me : sudanayyappann_bcs28@mepcoeng.ac.in

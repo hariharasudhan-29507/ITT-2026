@@ -33,8 +33,7 @@ O(1) — a single membership check against a fixed set of five vowels is perform
 
 ## Author
 
-
-Hariharasudhan A
-sophomore in CSE , MEPCO schlenk engineering college 
-Sivakasi
+Hariharasudhan A  
+sophomore in CSE , MEPCO schlenk engineering college  
+Sivakasi  
 reach me : sudanayyappann_bcs28@mepcoeng.ac.in

@@ -43,8 +43,7 @@ O(1) — an IPv4 address always has exactly 4 octets, so the number of operation
 
 ## Author
 
-
-Hariharasudhan A
-sophomore in CSE , MEPCO schlenk engineering college 
-Sivakasi
+Hariharasudhan A  
+sophomore in CSE , MEPCO schlenk engineering college  
+Sivakasi  
 reach me : sudanayyappann_bcs28@mepcoeng.ac.in

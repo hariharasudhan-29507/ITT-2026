@@ -35,8 +35,7 @@ O(n²) — every pair of elements is considered in the worst case.
 
 ## Author
 
-
-Hariharasudhan A
-sophomore in CSE , MEPCO schlenk engineering college 
-Sivakasi
+Hariharasudhan A  
+sophomore in CSE , MEPCO schlenk engineering college  
+Sivakasi  
 reach me : sudanayyappann_bcs28@mepcoeng.ac.in
