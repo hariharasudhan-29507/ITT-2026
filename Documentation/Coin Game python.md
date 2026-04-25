@@ -46,4 +46,7 @@ O(1) — a fixed number of comparisons and additions are performed for exactly t
 
 ## Author
 
-hariharasudhan
+
+Hariharasudhan A
+sophomore in CSE , MEPCO schlenk engineering college
+Sivakasi
