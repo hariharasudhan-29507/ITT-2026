@@ -136,6 +136,6 @@ Sophomore — B.E. Computer Science & Engineering
 Mepco Schlenk Engineering College, Sivakasi
 
 - Currently working on: Vehicle rental and booking system
-- Ask me about: Python, C++, Java, Oracle, MySQL
+- Ask me about: Python, C++, Java, Oracle
 - 📧 Reach me: sudanayyappan_bcs28@mepcoeng.ac.in
 
